@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+p{
+  margin-bottom: 2rem;
+}
+.card{
+  padding: 2rem;
+  margin: 10% 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.card h3{
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+.card img{
+  width: 100%;
+}

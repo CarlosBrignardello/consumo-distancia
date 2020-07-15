@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ES6 Final</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="card">
+    <h3>Consumo según distancia</h3>
+    <p>Este sitio consume la API del clima de Google. Para poder realizar las peticiones su navegador se debe encontrar en Modo CORS. Para poder ver la aplicación por favor descarga la siguiente extensión: <a href="https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc" target="_blank">CORS Extensión</a></p>
+    <form class="card__form" method="get" onchange="handleChange()">
+
+      <label for="browser">Origen: </label>
+      <select name="select">
+        <option value="santiago">Santiago</option> 
+        <option value="valparaiso">Valparaíso</option>
+        <option value="quilpue">Quilpue</option>
+        <option value="vina-del-mar">Viña del mar</option>
+        <option value="la-dehesa">La dehesa</option>
+        <option value="llay-llay">Llay Llay</option>
+      </select>
+      <br>
+      
+      <label for="browser">Destino: </label>
+      <select name="select">
+        <option value="santiago">Santiago</option> 
+        <option value="valparaiso">Valparaíso</option>
+        <option value="quilpue">Quilpue</option>
+        <option value="vina-del-mar">Viña del mar</option>
+        <option value="la-dehesa">La dehesa</option>
+        <option value="llay-llay">Llay Llay</option>
+      </select>
+      <br>
+
+      <label for="browser">Vehiculo </label>
+      <select name="select">
+        <option value="toyota-prius">Toyota Prius</option> 
+        <option value="fiat-argo">Fiat Argo</option>
+        <option value="susuki-alto">Susuki Alto</option>
+        <option value="nissan-juke">Nissan Juke</option>
+      </select>
+      <br>
+    </form>
+    
+    <br>
+    <h4>Distancia: <span id="distancia">0</span></h4>
+    <h4>Consumo: <span id="consumo">0</span></h4>
+  </div>
+
+
+  <script src="./main.js"></script>
+</body>
+</html>
